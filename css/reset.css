@@ -1,0 +1,390 @@
+    html, body, div, span, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    abbr, address, cite, code,
+    del, dfn, em, img, ins, kbd, q, samp,
+    small, strong, sub, sup, var,
+    b, i,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section, summary,
+    time, mark, audio, video {
+        margin:0;
+        padding:0;
+        border:0;
+        outline:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+    }
+
+    body {
+        line-height:1;
+    }
+
+    img{
+
+    }
+
+    article,aside,details,figcaption,figure,
+    footer,header,hgroup,menu,nav,section {
+        display:block;
+    }
+
+    nav ul {
+        list-style:none;
+    }
+
+    blockquote, q {
+        quotes:none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content:'';
+        content:none;
+    }
+
+    a {
+        margin:0;
+        padding:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+        color: white;
+    }
+
+    button {
+      color: white;
+      padding: 10px 25px;
+      background: transparent;
+      border: 1px solid white;
+      border-radius: 20px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    button:hover{
+      color: white;
+      background: aqua;
+    }
+
+
+
+    /* change colours to suit your needs */
+    ins {
+        background-color:#ff9;
+        color:#000;
+        text-decoration:none;
+    }
+
+    /* change colours to suit your needs */
+    mark {
+        background-color:#ff9;
+        color:#000;
+        font-style:italic;
+        font-weight:bold;
+    }
+
+    del {
+        text-decoration: line-through;
+    }
+
+    abbr[title], dfn[title] {
+        border-bottom:1px dotted;
+        cursor:help;
+    }
+
+    table {
+        border-collapse:collapse;
+        border-spacing:0;
+    }
+
+    /* change border colour to suit your needs */
+    hr {
+        display:block;
+        height:1px;
+        border:0;
+        border-top:1px solid #cccccc;
+        margin:1em 0;
+        padding:0;
+    }
+
+    input, select {
+        vertical-align:middle;
+    }
+
+    .audio1{
+min-height: 107px;
+max-height: 160px;
+background: #f7f8f9;
+border: 1px;
+border-color: #393d41;
+background:  #1f2326;
+overflow: hidden;
+overflow-y: auto;
+border-radius: 25px;
+width: 20%;
+position: absolute; /* Абсолютное позиционирование */
+bottom: 430px;
+left: 800px;
+line-height: 67px;
+
+    }
+
+    .audio2{
+min-height: 180px;
+max-height: 249px;
+background: #f7f8f9;
+border: 1px;
+border-color: #393d41;
+background:  #1f2326;
+overflow: hidden;
+overflow-y: auto;
+border-radius: 25px;
+width: 60%%;
+position: absolute; /* Абсолютное позиционирование */
+bottom: 550px;
+left: 800px;
+line-height: 67px;
+    }
+
+    .audio2 h2{
+      color: white;
+      font-size: 10px;
+      position: relative;
+      margin: auto;
+    }
+
+    .audio2 span{
+      text
+    }
+
+.audio1 audio{
+  padding-top: 30px;
+}
+
+    .info{
+min-height: 500px;
+max-height: 100px;
+border: 1px;
+border-color: #393d41;
+background:  #1f2326;
+overflow: hidden;
+overflow-y: auto;
+border-radius: 25px;
+width: 65%;
+position: absolute; /* Абсолютное позиционирование */
+bottom: -100px;
+left: 390px;
+line-height: 17px;
+-webkit-overflow-scrolling: touch;
+
+    }
+
+    .info2{
+min-height: 500px;
+max-height: 100px;
+background: #353b40;
+border-color: #353b40;
+border: 1px;
+border-radius: 25px;
+width: 65%;
+position: absolute; /* Абсолютное позиционирование */
+bottom: -100px;
+left: 390px;
+line-height: 67px;
+-webkit-overflow-scrolling: touch;
+
+    }
+
+
+    .info h3{
+      color: white;
+      padding: 10px;
+      font-size: 13px;
+      padding-bottom: 10px;
+    }
+
+
+
+
+    .info h2{
+      color: white;
+      padding: 10px;
+      font-size: 13px;
+    }
+
+
+    .info img{
+      padding-top: 11px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card{
+  position: relative;
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+border-radius: 20px;
+transition:  0.5s;
+
+}
+
+
+.card .circle{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card .circle::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1f2326;
+  clip-path: circle(120px at center);
+  transition: 0.5s;
+}
+
+.card:hover .circle::before{
+  clip-path: circle(400px at center);
+}
+
+.card img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  transition: 0.5s;
+}
+
+
+.card:hover img{
+  left: 72%;
+  height: 200px;
+}
+
+.card .content{
+  position: relative;
+  width: 50%;
+  left: 20%;
+  padding: 20 px 20px 20px 40px;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.card:hover .content{
+  position: absolute;
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+.card .content h2{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+.card .content p{
+  color: #fff;
+
+}
+
+.cardan{
+  position: relative;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #fff;
+  color:#000;
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+.form-box{
+  width: 500px;
+  background: rgba(0, 0, 0, 0.8);
+  margin: 12% auto;
+  padding: 50px 0;
+  color: #fff;
+  box-shadow:  0 0 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 40px
+}
+
+.input-box{
+  margin: 31px auto;
+  width: 80%;
+  border-bottom: 1px solid #fff;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.input-box input{
+  width: 90%;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.form-box h1{
+  color: #ccc;
+}
+
+::placeholder{
+  color: #ccc;
+}
+
+
+
+
+.form-box button{
+  color: #ccc;
+  padding: 10px 25px;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.form-box button:hover{
+  color: black;
+  background: white;
+}
