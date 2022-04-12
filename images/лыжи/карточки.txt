@@ -1,0 +1,57 @@
+<section class="listings">
+		<div class="wrapper">
+			<ul class="properties_list">
+				<li>
+					<a href="1.html">
+						<img src="img/book/1.png" alt="" title="" class="property_img"/>
+					</a>
+					<span class="price"><img  src="img/icons/heat.png" style="max-width: 5%" alt="">HOT</span>
+					<div class="property_details">
+						<h1>
+							<a href="1.html">Лавкрафт Говард, Дерлет Август - Комната с заколоченными ставнями</a>
+						</h1>
+	<h2>
+		<center>
+		<a href="1.html"><button type="button" name="button">Перейти к прослушиванию</button></a>
+	</center>
+</h2>
+					</div>
+				</li>
+				<li>
+					<a href="2.html">
+						<img src="img/book/2.jpg" style="max-width: 100%" alt="" title="" class="property_img"/>
+					</a>
+					<span class="price"><img  src="img/icons/heat.png" style="max-width: 5%" alt="">HOT</span>
+					<div class="property_details">
+						<h1>
+							<a href="2.html">Грабинский Стефан - Белый вырак</a>
+						</h1>
+						<br>
+						<h2>
+							<center>
+							<a href="2.html"><button type="button" name="button">Перейти к прослушиванию</button></a>
+						</center>
+					</h2>
+					</div>
+				</li>
+				<li>
+					<a href="3.html">
+						<img src="img/book/3.jpg" style="max-width: 100%" alt="" title="" class="property_img"/>
+					</a>
+						<span class="price"><img  src="img/icons/heat.png" style="max-width: 5%" alt="">HOT</span>
+					<div class="property_details">
+						<h1>
+							<a href="3.html">Дозуа Гарднер - Рецидивист</a>
+						</h1>
+						<br>
+						<br>
+						<br>
+						<h2>
+							<center>
+						<a href="3.html">	<button type="button" name="button">Перейти к прослушиванию</button></a>
+						</center>
+					</h2>
+					</div>
+				</li>
+				<li>
+	</section>	<!--  end listing section  -->
